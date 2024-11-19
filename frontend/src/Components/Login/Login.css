@@ -1,0 +1,166 @@
+
+
+.login-wrapper {
+  background: #4070f4;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  background: #fff;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.social-icons {
+  margin: 10px;
+  font-size: 25px;
+}
+
+.google-login,
+.github-login,
+.facebook-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+  height: 60px;
+  color: #fff;
+  background: #202c32;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  margin: 10px auto;
+}
+
+.social-login > div {
+  margin: 5px 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 600px;
+  background: transparent;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.text {
+  font-size: 45px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.inputs {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 480px;
+  height: 80px;
+  background: #eaeaea;
+  border-radius: 6px;
+}
+
+.icons {
+  margin: 0px 30px;
+  font-size: 25px;
+}
+
+.input input {
+  height: 50px;
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #2b3a42;
+  font-size: 20px;
+}
+
+.forgot-password {
+  padding-top: 15px;
+  align-items: center;
+  font-size: 20px;
+  color: #202c32;
+}
+
+.forgot-password span {
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.submit-container {
+  display: flex;
+  gap: 30px;
+  margin: 40px auto;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 59px;
+  color: #fff;
+  background: #4070f4;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.submit.gray {
+  background: #eaeaea;
+  color: #333333;
+}
+
+.showMessage {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
